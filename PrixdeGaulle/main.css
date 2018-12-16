@@ -2,19 +2,19 @@ body{
     background:#c4c8ca;
 }
 #lfcg_logo{
-    height: 50px;
+    height: 80px;
     max-width: 100%;
     float: right;
     margin-right: 2em;
 }
 #insta_logo{
-    height: 50px;
+    height: 80px;
     max-width: 100%;
     float:right;
 }
 #pdg_logo{
     float:left;
-    height: 50px;
+    height: 80px;
     max-width: 100%;
 }
 #active{
@@ -126,4 +126,42 @@ img{
     float:right;
     width: 300px;
     max-height: 100%;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+    line-height: 50px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
