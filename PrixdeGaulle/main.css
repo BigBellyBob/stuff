@@ -1,0 +1,129 @@
+body{
+    background:#c4c8ca;
+}
+#lfcg_logo{
+    height: 50px;
+    max-width: 100%;
+    float: right;
+    margin-right: 2em;
+}
+#insta_logo{
+    height: 50px;
+    max-width: 100%;
+    float:right;
+}
+#pdg_logo{
+    float:left;
+    height: 50px;
+    max-width: 100%;
+}
+#active{
+    border-bottom: solid;
+    border-bottom-width: 6px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+.nav_menu{
+    background: white;
+    border-style:solid;
+}
+.nav{
+    text-align:center;
+    margin-top: 7px;
+    word-spacing: 70px
+}
+.main_text{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    background-color:white;
+    word-spacing: 3px;
+}
+.button:hover{
+    color: gray;
+    border-bottom: 6px solid;
+}
+a:any-link{
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}
+.button{
+    display: inline-block;
+    font-size: 25px;
+    padding: 12px;
+    color:black;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.vm_button_container{
+    text-align: center;
+}
+.vm_button{
+    text-align: center;
+    padding: 15px 70px 15px 70px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border-color: #4CAF50;
+    border:solid 1px;
+    transition:.7s;
+}
+.vm_button:hover{
+    color:#4CAF50;
+    background-color: white;
+}
+h3{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    font-size:24px;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.footer{
+    text-align: center;
+    background:white;
+    border-top-style: solid;
+    border-width: thin;
+    margin-top: 2em;
+}
+#book_covers{
+    width:250px;
+    max-height:100%;
+    border-radius:10px;
+}
+#author_pictures{
+    height:250px;
+    max-width: 100%;
+    border-radius:10px;
+}
+li{
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+img{
+    margin:20px;
+}
+.main_book_covers{
+    float:right;
+    width:300px;
+    max-height: 100%;
+}
+.main_authors{
+    float:right;
+    width: 300px;
+    max-height: 100%;
+}
